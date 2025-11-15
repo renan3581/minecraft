@@ -1,0 +1,21 @@
+name: Plugindetrocaentreplayers
+version: 1.0.0
+main: me.seuplugin.troca.SistemaDeTroca
+description: Preciso que voce crie um plugin que crie um sistema de troca. Quando a pessoa digitar o comando, irÃ¡
+commands:
+  trocar:
+    description: Inicia uma troca com um jogador
+    usage: /trocar <jogador>
+    permission: troca.usar
+  aceitar:
+    description: Aceita uma solicitacao de troca
+    usage: /aceitar <jogador>
+    permission: troca.usar
+  recusar:
+    description: Recusa uma solicitacao de troca
+    usage: /recusar <jogador>
+    permission: troca.usar
+permissions:
+  troca.usar:
+    description: Permite usar os comandos de troca
+    default: true
