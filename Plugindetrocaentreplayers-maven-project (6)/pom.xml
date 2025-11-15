@@ -19,11 +19,11 @@
     <repositories>
         <repository>
             <id>spigot-repo</id>
-            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+            <url>https://mvnrepository.com/artifact/net.md-5/bungeecord-chat/1.21-R0.4</url>
         </repository>
         <repository>
             <id>bungeecord-repo</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <url>https://mvnrepository.com/artifact/net.md-5/bungeecord-api/1.21-R0.4</url>
         </repository>
         <repository>
             <id>minecraft-repo</id>
@@ -33,15 +33,15 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.spigotmc</groupId>
-            <artifactId>spigot-api</artifactId>
-            <version>1.8.8-R0.1-SNAPSHOT</version>
-            <scope>provided</scope>
+            <groupId>net.md-5</groupId>
+            <artifactId>bungeecord-chat</artifactId>
+            <version>1.21-R0.4</version>
         </dependency>
+       <!-- https://mvnrepository.com/artifact/net.md-5/bungeecord-api -->
         <dependency>
             <groupId>net.md-5</groupId>
             <artifactId>bungeecord-api</artifactId>
-            <version>1.16-R0.5-SNAPSHOT</version>
+            <version>1.21-R0.4</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
